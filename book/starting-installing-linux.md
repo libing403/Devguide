@@ -1,15 +1,12 @@
 # Development Environment on Linux
-
 We have standardized on Debian / Ubuntu LTS as the supported Linux distribution, but [boutique distribution instructions](starting-installing-linux-boutique.md) are available for Cent OS and Arch Linux.
 
 ## Permission Setup
-
 <aside class="note">
 Never ever fix permission problems by using 'sudo'. It will create more permission problems in the process and require a system reinstallation to fix them.
 </aside>
 
 The user needs to be added to the group "dialout":
-
 <div class="host-code"></div>
 
 ```sh
